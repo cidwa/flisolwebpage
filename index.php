@@ -52,7 +52,7 @@
                         </li>
                         <li><a href="stage.html">Descargas</a>
                         </li>
-                        <li><a href="#myModal2" data-toggle="modal" data-target="#myModal2">Registro</a>
+                        <li><a href="registro.html">Registro</a>
                         </li>
                     </ul>
                 </div>
@@ -66,7 +66,7 @@
         <div class="container">
             <div class="row logo">
                 <center>
-                    <img src="img/FLISoL-acatlan.png" alt="" class="img img-responsive">
+                    <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="50%">
                 </center>
             </div>
 
@@ -74,11 +74,17 @@
                 <div class="container text-center">
                     <h1 class="">FESTIVAL LATINOAMERICANO DE</h1>
                     <h1 class="backgreen"><!--<img src="img/arrows1.png" alt="">--> &nbsp INSTALACIÓN DE SOFTWARE LIBRE</h1>
-                    <h1 class="">VIERNES <strong>22</strong> DE<strong> ABRIL 2016</strong> <br>FES ACATLÁN</h1>
+                    <h1 class="">VIERNES <strong>22</strong> DE<strong> ABRIL 2016</strong>
                 </div>
             </div>
         </div>
     </section>
+    
+    <span id="parewi">
+        <div id="circulo-parewi">
+            <h4>Trae tus PCs y laptops que ya no uses para donarlas a gente que las necesita</h4>
+        </div>
+    </span>
     <!--    <section class="container aire queso">
         <div class="row">
             <div class="col-md-9">
@@ -195,52 +201,6 @@
                 </h2>
                 </div>
             </div>
-            <!--<div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">0</h1>
-                    </div>
-                    <div class="col-md-10 col-sm-10 aire">
-                        <h2>USAR<br>
-                            <small>El programa con cualquier proposito</small>
-                        </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">1</h2>
-                </div>
-                <div class="col-md-10 col-sm-10 aire">
-                    <h2>ESTUDIAR <br>
-                        <small>Como funciona, modificarlo y adaptarlo a tus necesidades</small>
-                        </h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">2</h2>
-                </div>
-                <div class="col-md-10 col-sm-10 aire">
-                    <h2>DISTRIBUIR <br>
-                        <small>Copias del programa</small></h2>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-2 col-xs-3">
-                    <h2 class="circle">3</h2>
-                </div>
-                <div class="col-md-10 col-sm-10 aire">
-                    <h2>MEJORAR <br>
-                        <small>El programa y publicar las mejoras</small></h2>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 aire">
-            <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive ">
-        </div>
-    </section>
-            </div>-->
             <br>
             <br>
             <br>
@@ -248,11 +208,11 @@
     </section>
     <div class="container-fluid back">
         <section class="container ">
-           <div class="row mouse">
-               <center>
-                   <img src="img/mouse.png" alt="" class="img img-responsive">
-               </center>
-           </div>
+            <div class="row mouse">
+                <center>
+                    <img src="img/mouse.png" alt="" class="img img-responsive">
+                </center>
+            </div>
             <div class="row text-center">
                 <h1 class="">EL SOFTWARE LIBRE NECESITA</h1>
             </div>
@@ -303,14 +263,14 @@
         </section>
     </div>
     <section class="container-fluid">
-       <div id="actividades"></div>
+        <div id="actividades"></div>
         <div class="row aire">
             <div class="col-md-12">
                 <div class="panel panel-warning">
                     <div class="panel-heading">
-                        <h1 class="panel-title">FLISoL Acatlán - Actividades</h1>
+                        <h1 class="">FLISoL Acatlán - Actividades<br> <small>Selecciona los talleres a los que vayas a asistir</small></h1>
                     </div>
-                    <div class="panel-body">
+                    <div class="panel-body table-responsive">
                         <table class="table table-striped table-hover ">
                             <thead>
                                 <tr>
@@ -336,40 +296,114 @@
                                     <td>11:00 - 12:00</td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="bottom" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">Template para wordpress I</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="bottom" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">
+                                           <button type="button" name="button" class="all-button wordpress" data-check="">
+                                       <h6> Template para wordpress I</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">Aprende a usar Linux</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
 
                                     </td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">Aprende a usar Linux</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                       <h6> Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="bottom" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">Template para wordpress II</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="bottom" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">
+                                           <button type="button" name="button" class="all-button wordpress" data-check="">
+                                         <h6> Template para wordpress II</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">Aprende a usar Linux</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">Aprende a usar Linux</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
+                                        </div>
+
+                                        <div class="row">
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="bottom" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">
+                                             <button type="button" name="button" class="all-button wordpress" data-check="">
+                                       <h6> Template para wordpress III</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Julio César Rodriguez Domínguez</b>" data-placement="bottom" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México. <br><b>Lugar: UIM</b> ">NodeBotsMX</a></small>
+                                            <small><a  style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio César Rodriguez Domínguez</b>" data-placement="bottom" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México. <br><b>Lugar: UIM</b> ">
+                                            <button type="button" name="button" class="all-button nodebots" data-check="">
+                                       <h6> NodeBotsMX</h6>
+                                          <p style="color: black">
+                                            <small>Conferencia</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
+
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="bottom" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">Template para wordpress III</a></small>
-                                        </div>
-                                        <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">Aprende a usar Linux</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="bottom" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                       <h6> Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                 </tr>
@@ -381,7 +415,15 @@
                                     <td></td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Eduardo Espinoza</b>" data-placement="bottom" data-content="Descubre que son los metadatos, para que sirven y cual es su relación con la seguridad informatica<br><b>Lugar: Area de Linux</b> ">Conociendo y manipulando los metadatos</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Eduardo Espinoza</b>" data-placement="bottom" data-content="Descubre que son los metadatos, para que sirven y cual es su relación con la seguridad informatica<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button metadatos" data-check="">
+                                       <h6> Conociendo y manipulando los metadatos</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                 </tr>
@@ -389,28 +431,81 @@
                                     <td>13:00 - 14:00</td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="bottom" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">R no estadistico I</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="bottom" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">
+                                             <button type="button" name="button" class="all-button rno" data-check="">
+                                       <h6> R no estadistico I</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                     <td></td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">Aplicaciones moviles con cordova I</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                             <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova I</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="bottom" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">R no estadistico II</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="bottom" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button rno" data-check="">
+                                      <h6> R no estadistico II</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                     <td></td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Angel Barrera Santana</b>" data-placement="bottom" data-content="Crea proyectos web asombrosos con Polymer y Material Design de Google<br><b>Lugar: Sala 5</b>">Polymer y material Design</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Angel Barrera Santana</b>" data-placement="bottom" data-content="Crea proyectos web asombrosos con Polymer y Material Design de Google<br><b>Lugar: Sala 5</b>">
+                                            
+                                             <button type="button" name="button" class="all-button polymer" data-check="">
+                                      <h6> Polymer y material Design</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">Aplicaciones moviles con cordova II</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova II</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="bottom" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">R no estadistico III</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="bottom" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button rno" data-check="">
+                                      <h6> R no estadistico III</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                 </tr>
@@ -420,16 +515,43 @@
                                     <td></td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">Aplicaciones moviles con cordova I</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova I</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                     <td></td>
                                     <td>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Angel Barrera Santana</b>" data-placement="bottom" data-content="Introducción a Polymer y Material Design de Google<br><b>Lugar:Sala 5</b>">Polymer y material Design</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Angel Barrera Santana</b>" data-placement="bottom" data-content="Introducción a Polymer y Material Design de Google<br><b>Lugar:Sala 5</b>">
+                                            
+                                            <button type="button" name="button" class="all-button polymer" data-check="">
+                                      <h6> Polymer y material Design</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                         <div class="row">
-                                            <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">Aplicaciones moviles con cordova II</a></small>
+                                            <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="bottom" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova II</h6>
+                                          <p style="color: black">
+                                            <small>Taller</small>
+                                            </p>
+                                            </button>
+                                            </a>
+                                            </small>
                                         </div>
                                     </td>
                                 </tr>
@@ -444,6 +566,36 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="panel-footer">
+                        <form role="form" class="form-inline" data-toggle="validator" action="validar2.php" method="POST">
+                <div class="form-group">
+                    <label for="">Nombre:</label>
+                    <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Apellido:</label>
+                    <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
+                </div>
+                <div class="form-group">
+                    <label for="">email:</label>
+                    <input id="email" name="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Taller / Ponencia:</label>
+                    <textarea id="tp" rows="5" cols="40" class="form-control" disabled>
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <label for="" style="display:none;">Taller / Ponencia:</label>
+                    <textarea style="display:none;" id="taller" name="taller" rows="5" cols="40" class="form-control" readonly>
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default col-md-12">Registrate</button>
+                </div>
+        </div>
+        </form>
+                    </div>
                 </div>
             </div>
             <div class="col-md-2">
@@ -451,20 +603,20 @@
             </div>
         </div>
     </section>
-    
+
     <section class="container-fluid back2">
-        
+
     </section>
     <section class="conatainer-fluid" id="InstallFEST">
-      <div class="container">
-       <div class="title aire text-center">
+        <div class="container">
+            <div class="title aire text-center">
                 <h1>SE LIBRE, USA LINUX<span class="forma-left"></span><span class="forma-right"></span>  </h1>
             </div>
-            
-            
-            </div>
+
+
+        </div>
     </section>
-    
+
     <footer class="container-fluid">
         <div class="row">
             <section class="col-md-4">
@@ -509,7 +661,9 @@
                 <div class="modal-body">
                     <center>
                         <h1>FLISoL Acatlán 2016</h1>
-                            <small>Recuerda que los datos proporcionados seran los que se usaran en el caso de recibir una constancia</small><br><br>
+                        <small>Recuerda que los datos proporcionados seran los que se usaran en el caso de recibir una constancia</small>
+                        <br>
+                        <br>
                         <form class="row" action="validar.php" method="POST">
                             <label for="">Nombre(s):</label>
                             <input type="text" name="nombre" class="form-control" placeholder="Nombre">
@@ -540,9 +694,99 @@
             </div>
         </div>
     </div>
-    <script>
+
+    <script type="text/javascript">
         $(document).ready(function () {
+
             $('[data-toggle="popover"]').popover();
+
+
+            $('table').on('click', '.wordpress', function (event) {
+                if ($('.wordpress').hasClass('color')) {
+                    $('.wordpress').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.wordpress').addClass('color').first().attr('data-check', '1');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.linux', function (event) {
+                if ($('.linux').hasClass('color')) {
+                    $('.linux').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.linux').addClass('color').first().attr('data-check', '2');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.rno', function (event) {
+                if ($('.rno').hasClass('color')) {
+                    $('.rno').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.rno').addClass('color').first().attr('data-check', '3');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.cordova', function (event) {
+                if ($('.cordova').hasClass('color')) {
+                    $('.cordova').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.cordova').addClass('color').first().attr('data-check', '4');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.polymer', function (event) {
+                if ($('.polymer').hasClass('color')) {
+                    $('.polymer').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.polymer').addClass('color').first().attr('data-check', '5');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.metadatos', function (event) {
+                if ($('.metadatos').hasClass('color')) {
+                    $('.metadatos').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.metadatos').addClass('color').first().attr('data-check', '6');
+                }
+                valor();
+            });
+
+            var valor = function () {
+                array = [];
+                nom = [];
+                $('table').find('.all-button').each(function (index) {
+                    if (($(this).attr('data-check')) != '') {
+                        console.debug('----------');
+                        array.push($(this).attr('data-check'));
+                        for (i = 0; i < array.length; i++) {
+                            $('#taller').html('')
+                            console.debug('arreglo: ' + array[i]);
+                        }
+                    } else {
+                        $('#taller').html('');
+                    }
+                });
+
+                $('table').find('.all-button').each(function (index) {
+                    if (($(this).attr('data-check')) != '') {
+                        console.debug('----------');
+                        nom.push($(this).find('h6').text());
+                        for (i = 0; i < nom.length; i++) {
+                            $('#tp').html('')
+                            console.debug('arreglo: ' + nom[i]);
+                        }
+                    } else {
+                        $('#tp').html('');
+                    }
+                });
+                $('#taller').append(array.join(" , "));
+                $("#tp").append(nom.join(" , "));
+            }
+
         });
     </script>
 </body>

@@ -21,7 +21,7 @@ body {
       box-shadow: 1px 1px 20px black;
 }
 .logo {
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
 }
 .mouse{
@@ -47,7 +47,7 @@ div.navbar-header {
 }
 .titulo {
     text-align: center;
-    padding: 9%;
+    padding: 7%;
     padding-left: 0;
     
 }
@@ -169,19 +169,17 @@ footer{
     background-attachment: fixed;
     background-image: url(../img/background.jpg)
 }
-<<<<<<< HEAD
+
 table th{
   text-align: center;
 }
 .all-button{
-  width: 100%;
-  height: 100%;
+
   background-color: rgba(0, 0, 0, 0  );
 border: none;
 }
 .all-button:hover{
-  width: 100%;
-  height: 100%;
+
   background-color: rgba(40, 182, 44, 0.3);
   border: none;
   transition: all 200ms ease-out;
@@ -189,16 +187,18 @@ border: none;
 .color{
   background-color: rgba(40, 182, 44, 0.6);
   border: none;
-  width: 100%;
-  height: 100%;
-  transition: all 200ms ease-out;
-=======
 
-.back2{
+  transition: all 200ms ease-out;
+}
+
+.back{
     background: white;
     background-attachment: fixed;
-    background-image: url(../img/background2.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
-    height: 300px;
->>>>>>> 99bf31fbb82aa3d15fb519fb038cea54571eda21
 }
+
+.panel h1 small{
+    color: white;
+}
+
