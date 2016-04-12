@@ -66,7 +66,11 @@
         <div class="container">
             <div class="row logo">
                 <center>
+<<<<<<< HEAD
                     <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="50%">
+=======
+                    <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="40%">
+>>>>>>> b3a243ec2a74e485dbf196299ab6ede3a6e539ab
                 </center>
             </div>
 

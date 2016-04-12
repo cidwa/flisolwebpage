@@ -190,12 +190,20 @@ border: none;
 
   transition: all 200ms ease-out;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> b3a243ec2a74e485dbf196299ab6ede3a6e539ab
 .back{
     background: white;
     background-attachment: fixed;
     background-image: url(../img/background.jpg);
     background-size: cover;
+<<<<<<< HEAD
+=======
+    height: 300px;
+
+>>>>>>> b3a243ec2a74e485dbf196299ab6ede3a6e539ab
 }
 
 .panel h1 small{
