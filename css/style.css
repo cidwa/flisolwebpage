@@ -1,16 +1,17 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
 /* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
 
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
 
 body {
     background: #219439;
-    font-family: 'Comfortaa',cursive;
+    font-family: 'Comfortaa', cursive;
     font-size: 15px;
 }
+
 #inicio {
     background: white;
     background: url(../img/background.jpg);
@@ -18,39 +19,45 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-      box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 20px black;
 }
+
 .logo {
     margin-top: 60px;
     text-align: center;
 }
-.mouse{
-margin-top: 0px;    
+
+.mouse {
+    margin-top: 0px;
 }
 
 .navbar {
-  text-transform: uppercase;
+    text-transform: uppercase;
     min-height: 60px;
     margin-bottom: 20px;
     border: 1px solid transparent;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.65);
     background: #ffffff;
 }
+
 div.navbar-header {
     80px;
 }
+
 .aire {
     margin-top: 4%;
 }
+
 .aire2 {
     margin-top: 8%;
 }
+
 .titulo {
     text-align: center;
     padding: 7%;
     padding-left: 0;
-    
 }
+
 .backwhite {
     background: white;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
@@ -59,6 +66,7 @@ div.navbar-header {
     padding: 2%;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.27);
 }
+
 .backgreen {
     background: rgba(33, 148, 57, 0.8);
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
@@ -68,54 +76,62 @@ div.navbar-header {
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.27);
 }
-.container-fluid{
+
+.container-fluid {
     background-image: url(../img/fondoTeam2.png);
     background-position: center;
     background-repeat: no-repeat;
 }
-.queso h2 small, h2, p {
+
+.queso h2 small,
+h2,
+p {
     color: white;
 }
 
-.title{
-  margin-bottom: 30px;
-  padding: 10px 10px;
-  /*margin-left: -30px;*/
-  position: relative;
-  box-shadow: 3px 3px  30px #353839;
-  background-color: white;
-  transition: all 3s ease;
+.title {
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    /*margin-left: -30px;*/
+    position: relative;
+    box-shadow: 3px 3px 30px #353839;
+    background-color: white;
+    transition: all 3s ease;
 }
 
-.forma-left{
+.forma-left {
     width: 0;
     height: 0;
     line-height: 0;
     border-left: 20px solid transparent;
     border-top: 10px solid rgb(210, 206, 201);
     position: absolute;
-    top:100%;
-    left:0px;
+    top: 100%;
+    left: 0px;
 }
-.forma-right{
+
+.forma-right {
     width: 0;
     height: 0;
     line-height: 0;
     border-right: 20px solid transparent;
     border-top: 10px solid rgb(210, 206, 201);
     position: absolute;
-    top:100%;
-    right:0px;
+    top: 100%;
+    right: 0px;
 }
+
 .circle {
-  color: orange;
-  text-shadow: 3px 3px 10px #353839;
+    color: orange;
+    text-shadow: 3px 3px 10px #353839;
     text-align: center;
     font-weight: bold;
     padding: 35%;
     border: 1px solid #353839;
     border-radius: 50%;
 }
+
+
 /*aside .row {
     text-align: center;
     padding: 2%;
@@ -126,87 +142,84 @@ aside .row h4 {
 aside .row {
     background: #f4f4f4;
 }*/
+
 aside .row a {
     color: orange;
 }
+
 aside .row .link {
-    color:#353839;
+    color: #353839;
     font-size: 20px;
     text-decoration: none;
 }
+
 aside .row .link:hover {
     color: #353839;
     text-decoration: none;
 }
+
 .pad {
     padding: 3%;
     border-left: 1px solid white;
 }
-.page-header{
-  color:white;
-}
-footer{
-  background-color: #353839;
-  padding: 2em;
-  color: white;
+
+.page-header {
+    color: white;
 }
 
-.thum{
-  border-right: 1px solid #353839;
-  text-align: center;
+footer {
+    background-color: #353839;
+    padding: 2em;
+    color: white;
 }
 
-.thum1{
-  text-align: center;
+.thum {
+    border-right: 1px solid #353839;
+    text-align: center;
 }
 
-.icon{
+.thum1 {
+    text-align: center;
+}
+
+.icon {
     font-size: 80px;
 }
 
-.back{
+.back {
     background: white;
     background-attachment: fixed;
     background-image: url(../img/background.jpg)
 }
 
-table th{
-  text-align: center;
+table th {
+    text-align: center;
 }
-.all-button{
 
-  background-color: rgba(0, 0, 0, 0  );
-border: none;
+.all-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
 }
-.all-button:hover{
 
-  background-color: rgba(40, 182, 44, 0.3);
-  border: none;
-  transition: all 200ms ease-out;
+.all-button:hover {
+    background-color: rgba(40, 182, 44, 0.3);
+    border: none;
+    transition: all 200ms ease-out;
 }
-.color{
-  background-color: rgba(40, 182, 44, 0.6);
-  border: none;
 
-  transition: all 200ms ease-out;
+.color {
+    background-color: rgba(40, 182, 44, 0.6);
+    border: none;
+    transition: all 200ms ease-out;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> b3a243ec2a74e485dbf196299ab6ede3a6e539ab
-.back{
+.back {
     background: white;
     background-attachment: fixed;
     background-image: url(../img/background.jpg);
     background-size: cover;
-<<<<<<< HEAD
-=======
-    height: 300px;
-
->>>>>>> b3a243ec2a74e485dbf196299ab6ede3a6e539ab
 }
 
-.panel h1 small{
+.panel h1 small {
     color: white;
 }
-

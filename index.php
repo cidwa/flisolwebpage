@@ -66,11 +66,11 @@
         <div class="container">
             <div class="row logo">
                 <center>
-<<<<<<< HEAD
+
                     <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="50%">
-=======
+
                     <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="40%">
->>>>>>> b3a243ec2a74e485dbf196299ab6ede3a6e539ab
+
                 </center>
             </div>
 
@@ -572,39 +572,39 @@
                     </div>
                     <div class="panel-footer">
                         <form role="form" class="form-inline" data-toggle="validator" action="validar2.php" method="POST">
-                <div class="form-group">
-                    <label for="">Nombre:</label>
-                    <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
-                </div>
-                <div class="form-group">
-                    <label for="">Apellido:</label>
-                    <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
-                </div>
-                <div class="form-group">
-                    <label for="">email:</label>
-                    <input id="email" name="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
-                </div>
-                <div class="form-group">
-                    <label for="">Taller / Ponencia:</label>
-                    <textarea id="tp" rows="5" cols="40" class="form-control" disabled>
-                    </textarea>
-                </div>
-                <div class="form-group">
-                    <label for="" style="display:none;">Taller / Ponencia:</label>
-                    <textarea style="display:none;" id="taller" name="taller" rows="5" cols="40" class="form-control" readonly>
-                    </textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-default col-md-12">Registrate</button>
-                </div>
-        </div>
-        </form>
+                            <div class="form-group">
+                                <label for="">Nombre:</label>
+                                <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Apellido:</label>
+                                <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">email:</label>
+                                <input id="email" name="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Taller / Ponencia:</label>
+                                <textarea id="tp" rows="5" cols="40" class="form-control" disabled>
+                                </textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="" style="display:none;">Taller / Ponencia:</label>
+                                <textarea style="display:none;" id="taller" name="taller" rows="5" cols="40" class="form-control" readonly>
+                                </textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-default col-md-12">Registrate</button>
+                            </div>
                     </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-md-2">
+        </div>
+        <div class="col-md-2">
 
-            </div>
+        </div>
         </div>
     </section>
 
