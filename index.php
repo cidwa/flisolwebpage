@@ -83,61 +83,61 @@
         <div class="row text-center">
            <div class="container">
             <div class="col-md-7 aire">
-               <h1>PROYECTO PAREWI</h1>
+               <h1 class="title"> <span class="forma-left"></span><span class="forma-right"></span>PROYECTO PAREWI</h1>
                 <h2>TRAE UN EQUIPO VIEJO PARA DONAR Y AYUDAR A OTROS</h2>
                 <p>Parewi recupera computadoras viejas, las rehabilita, les instala software libre educativo y las lleva a comunidades de bajos recursos en México.
 </p>
            <a href="parewi.html" class="btn btn-warning">Registra tu equipo</a>
             </div>
             <div class="col-md-5 aire text-center">
-                <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+                <img src="img/parewi-logo-white.png" alt="" class="img img-responsive">
             </div>
         </div>
         </div>
     </section>
-    
+
       <section class="container-fluid drones">
         <div class="row text-center">
            <div class="container">
             <div class="col-md-5 aire">
-                       <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+                       <img src="img/dron-logo.png" alt="" class="img img-responsive" width="50%">
             </div>
             <div class="col-md-7 aire">
-               <h1>DEMOSTRACIÓN DE DRONES</h1>
+               <h1 class="title-black"><span class="forma-left-black"></span><span class="forma-right-black"></span>DEMOSTRACIÓN DE DRONES</h1>
                 <h2>CONOCE LA APLICACIÓN DEL OPEN SOURCE EN ESTA TECNOLOGIA</h2>
                 <p> Ven a aprender como puedes contribuir a proyectos relacionados a drones, o incluso empezar tu propio proyecto aplicando solo tecnologías open source
 </p>
-        
+
             </div>
         </div>
         </div>
     </section>
-      
+
       <section class="container-fluid nodebots">
         <div class="row text-center">
            <div class="container">
             <div class="col-md-7 aire2">
-               <h1>NODEBOTS MÉXICO</h1>
+               <h1 class="title"><span class="forma-left"></span><span class="forma-right"></span>NODEBOTS MÉXICO</h1>
                 <h2>SE TESTIGO DEL LEVANTAMIENTO DE JAVASCRIPT HACIA LA ROBOTICA</h2>
-                <p>Así es... Si ya tienes experiencia en javascript, ahora podras usar tus poderes de desarrollador para manipular maquinas. De hacer parpadear un led hasta luchas de sumobots. 
+                <p>Así es... Si ya tienes experiencia en javascript, ahora podras usar tus poderes de desarrollador para manipular maquinas. De hacer parpadear un led hasta luchas de sumobots.
 </p>
             </div>
             <div class="col-md-5 aire">
-                <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+                <img src="img/nodebots-logo.png" alt="" class="img img-responsive" width="50%">
             </div>
         </div>
         </div>
     </section>
-      
+
       <section class="container-fluid talleres">
         <div class="row text-center">
            <div class="container">
             <div class="col-md-5 aire2">
                <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
-               
+
             </div>
             <div class="col-md-7 aire">
-               <h1>FLISoL ACATLÁN 2016</h1>
+               <h1 class="title-black">FLISoL ACATLÁN 2016<span class="forma-left-black"></span><span class="forma-right-black"></span></h1>
                 <h2>VEN A APRENDER, COMPARTIR Y CELEBRAR EL HARDWARE Y SOFTWARE LIBRE</h2>
                 <p>En el marco de celebración del flisol habra muchos talleres, conferencias, platicas y gente interesada en el desarrollo de las tecnologías open source. Te invitamos a unirte a esta gran celebración.
 </p>
@@ -146,7 +146,7 @@
         </div>
         </div>
     </section>
-     
+
     <div class="container-fluid back">
         <section class="container ">
             <div class="row mouse">
@@ -241,7 +241,7 @@
             <br>
         </div>
     </section>
-   
+
     <section class="container-fluid back2">
 
     </section>
