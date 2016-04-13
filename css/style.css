@@ -7,10 +7,12 @@
 }
 
 body {
-    background: #219439;
+    
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
 }
+
+
 
 #inicio {
     background: white;
@@ -23,7 +25,6 @@ body {
 }
 
 .logo {
-    margin-top: 60px;
     text-align: center;
 }
 
@@ -37,11 +38,28 @@ body {
     margin-bottom: 20px;
     border: 1px solid transparent;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.65);
-    background: #ffffff;
+      background: #219439; 
+}
+
+.navbar-brand {
+    float: left;
+    padding: 8px 4px;
 }
 
 div.navbar-header {
     80px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #cbcbcb;
+}
+
+.verde{
+    color:  #219439;
 }
 
 .aire {
@@ -53,8 +71,8 @@ div.navbar-header {
 }
 
 .titulo {
-    text-align: center;
-    padding: 7%;
+    text-align: left;
+    padding: 4%;
     padding-left: 0;
 }
 
@@ -67,8 +85,33 @@ div.navbar-header {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.27);
 }
 
-.backgreen {
-    background: rgba(33, 148, 57, 0.8);
+.title-bar {
+    padding: 5px 0;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+    /* background-color: red; */
+    background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+    background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+    background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+    box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+    border-bottom: #6a6a6a 1px solid;
+}
+
+.blackgreen {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
+    border-right: 100px;
+    border-bottom: 30px;
+    padding: 2%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.27);
+    height: 200px;
+}
+
+.backgreen{
+        background: rgba(33, 148, 57, 0.92);
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.45);
     border-right: 100px;
     border-bottom: 30px;
@@ -265,3 +308,55 @@ color: dimgray;
 .talleres h2, .platicas p{
     color: dimgray;
 }
+
+/*STICKY BAR */
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+header {
+	height:200px;
+}
+
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 800px;
+}
+
+/* //STICKY BAR */
+
+/****CURSOR TYPED*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* //CURSOR TYPED*/

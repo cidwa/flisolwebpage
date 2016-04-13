@@ -21,132 +21,151 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
-                        <span class="sr-only">Navegación</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="img/logo2.png" alt="" class="img img-responsive"></a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="menu1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.php">Inicio</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actividades <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#actividades">Talleres</a>
-                                </li>
-                                <li><a href="#actividades">Ponencias</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#InstallFEST">InstallFEST</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="stage.html">Descargas</a>
-                        </li>
-                        <li><a href="registro.html">Registro</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
-
     <section id="inicio">
-        <div class="container">
-            <div class="row logo">
+        <div class="container encabezado">
+         <div class="row logo">
                 <center>
-                    <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="50%">
+                    <img src="img/FLISoL-acatlan1.png" alt="" class="img img-responsive" width="60%">
                 </center>
             </div>
-
+            <br><br>
+           <div class="row text-center">
+                <div class="col-md-4">
+                    <h3><span class="glyphicon glyphicon-calendar verde"></span> <strong>22 DE ABRIL</strong></h3>
+                </div>
+                <div class="col-md-4">
+                    
+                    <h3><span class="glyphicon glyphicon-map-marker verde"></span> <strong> FES ACATLÁN</strong></h3>
+                </div>
+                <div class="col-md-4">
+                    
+                    <h3><span class="glyphicon glyphicon-edit verde"></span> <strong> + 12 ACTIVIDADES</strong></h3>
+                </div>
+            </div>
+            
             <div class="row titulo">
                 <div class="container text-center">
                     <h1 class="">FESTIVAL LATINOAMERICANO DE</h1>
                     <h1 class="backgreen"><!--<img src="img/arrows1.png" alt="">--> &nbsp INSTALACIÓN DE SOFTWARE LIBRE</h1>
-                    <h1 class="">VIERNES <strong>22</strong> DE<strong> ABRIL 2016</strong></h1>
+                    
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <header>
+        <div id="nav">
+            <nav class="navbar navbar-inverse navbar-static">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
+
+                            <span class="sr-only">Navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.php"><img src="img/logo2.png" alt="" class="img img-responsive"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="menu1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.php">Inicio</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actividades <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#actividades">Talleres</a>
+                                    </li>
+                                    <li><a href="#actividades">Ponencias</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#InstallFEST">InstallFEST</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="stage.html">Descargas</a>
+                            </li>
+                            <li><a href="registro.html">Registro</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </header>
+    <section class="container-fluid parewi">
+        <div class="row text-center">
+            <div class="container">
+                <div class="col-md-7 aire">
+                    <h1>PROYECTO PAREWI</h1>
+                    <h2>TRAE UN EQUIPO VIEJO PARA DONAR Y AYUDAR A OTROS</h2>
+                    <p>Parewi recupera computadoras viejas, las rehabilita, les instala software libre educativo y las lleva a comunidades de bajos recursos en México.
+                    </p>
+                    <a href="parewi.html" class="btn btn-warning">Registra tu equipo</a>
+                </div>
+                <div class="col-md-5 aire text-center">
+                    <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
                 </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid parewi">
+
+    <section class="container-fluid drones">
         <div class="row text-center">
-           <div class="container">
-            <div class="col-md-7 aire">
-               <h1>PROYECTO PAREWI</h1>
-                <h2>TRAE UN EQUIPO VIEJO PARA DONAR Y AYUDAR A OTROS</h2>
-                <p>Parewi recupera computadoras viejas, las rehabilita, les instala software libre educativo y las lleva a comunidades de bajos recursos en México.
-</p>
-           <a href="parewi.html" class="btn btn-warning">Registra tu equipo</a>
+            <div class="container">
+                <div class="col-md-5 aire">
+                    <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+                </div>
+                <div class="col-md-7 aire">
+                    <h1>DEMOSTRACIÓN DE DRONES</h1>
+                    <h2>CONOCE LA APLICACIÓN DEL OPEN SOURCE EN ESTA TECNOLOGIA</h2>
+                    <p> Ven a aprender como puedes contribuir a proyectos relacionados a drones, o incluso empezar tu propio proyecto aplicando solo tecnologías open source
+                    </p>
+
+                </div>
             </div>
-            <div class="col-md-5 aire text-center">
-                <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
-            </div>
-        </div>
         </div>
     </section>
-    
-      <section class="container-fluid drones">
+
+    <section class="container-fluid nodebots">
         <div class="row text-center">
-           <div class="container">
-            <div class="col-md-5 aire">
-                       <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+            <div class="container">
+                <div class="col-md-7 aire2">
+                    <h1>NODEBOTS MÉXICO</h1>
+                    <h2>SE TESTIGO DEL LEVANTAMIENTO DE JAVASCRIPT HACIA LA ROBOTICA</h2>
+                    <p>Así es... Si ya tienes experiencia en javascript, ahora podras usar tus poderes de desarrollador para manipular maquinas. De hacer parpadear un led hasta luchas de sumobots.
+                    </p>
+                </div>
+                <div class="col-md-5 aire">
+                    <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+                </div>
             </div>
-            <div class="col-md-7 aire">
-               <h1>DEMOSTRACIÓN DE DRONES</h1>
-                <h2>CONOCE LA APLICACIÓN DEL OPEN SOURCE EN ESTA TECNOLOGIA</h2>
-                <p> Ven a aprender como puedes contribuir a proyectos relacionados a drones, o incluso empezar tu propio proyecto aplicando solo tecnologías open source
-</p>
-        
-            </div>
-        </div>
         </div>
     </section>
-      
-      <section class="container-fluid nodebots">
+
+    <section class="container-fluid talleres">
         <div class="row text-center">
-           <div class="container">
-            <div class="col-md-7 aire2">
-               <h1>NODEBOTS MÉXICO</h1>
-                <h2>SE TESTIGO DEL LEVANTAMIENTO DE JAVASCRIPT HACIA LA ROBOTICA</h2>
-                <p>Así es... Si ya tienes experiencia en javascript, ahora podras usar tus poderes de desarrollador para manipular maquinas. De hacer parpadear un led hasta luchas de sumobots. 
-</p>
+            <div class="container">
+                <div class="col-md-5 aire2">
+                    <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
+
+                </div>
+                <div class="col-md-7 aire">
+                    <h1>FLISoL ACATLÁN 2016</h1>
+                    <h2>VEN A APRENDER, COMPARTIR Y CELEBRAR EL HARDWARE Y SOFTWARE LIBRE</h2>
+                    <p>En el marco de celebración del flisol habra muchos talleres, conferencias, platicas y gente interesada en el desarrollo de las tecnologías open source. Te invitamos a unirte a esta gran celebración.
+                    </p>
+                    <a href="parewi.html" class="btn btn-warning">REGISTRA TU PARTICIPACIÓN</a>
+                </div>
             </div>
-            <div class="col-md-5 aire">
-                <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
-            </div>
-        </div>
         </div>
     </section>
-      
-      <section class="container-fluid talleres">
-        <div class="row text-center">
-           <div class="container">
-            <div class="col-md-5 aire2">
-               <img src="img/1000px-Dreaming_tux.svg.png" alt="" class="img img-responsive" width="50%">
-               
-            </div>
-            <div class="col-md-7 aire">
-               <h1>FLISoL ACATLÁN 2016</h1>
-                <h2>VEN A APRENDER, COMPARTIR Y CELEBRAR EL HARDWARE Y SOFTWARE LIBRE</h2>
-                <p>En el marco de celebración del flisol habra muchos talleres, conferencias, platicas y gente interesada en el desarrollo de las tecnologías open source. Te invitamos a unirte a esta gran celebración.
-</p>
-           <a href="parewi.html" class="btn btn-warning">REGISTRA TU PARTICIPACIÓN</a>
-            </div>
-        </div>
-        </div>
-    </section>
-     
+
     <div class="container-fluid back">
         <section class="container ">
             <div class="row mouse">
@@ -204,7 +223,7 @@
         </section>
     </div>
 
-   <section class="container">
+    <section class="container">
         <div class="row">
             <div class="title aire">
                 <h1>El software libre garantiza la libertad de...<span class="forma-left"></span><span class="forma-right"></span>  </h1>
@@ -241,7 +260,7 @@
             <br>
         </div>
     </section>
-   
+
     <section class="container-fluid back2">
 
     </section>
@@ -250,7 +269,16 @@
             <div class="title aire text-center">
                 <h1>SE LIBRE, PIENSA LIBRE, USA LINUX<span class="forma-left"></span><span class="forma-right"></span>  </h1>
             </div>
-
+ <div class="row titulo">
+              <div class="col-md-7 col-md-offset-3">
+               <div class="title-bar"><span class="titulin">FLISoL Acatlán &mdash; bash</div>
+                <div class="blackgreen">
+                    <div class="text-body">
+				$ <span id="typed"></span>
+			</div>
+		</div>
+                </div>
+                </div>
 
         </div>
     </section>
@@ -289,6 +317,56 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+        $('#nav').affix({
+            offset: {
+                top: $('header').height()
+            }
+        });
+
+        $('#sidebar').affix({
+            offset: {
+                top: 200
+            }
+        });
+    </script>
+    
+    <script>
+	$(function(){
+
+		$("#typed").typed({
+			strings: ["nano index", "nano -S indes.ht", "", "nano -S index.htm", "sudo nano -S index.html"],
+			typeSpeed: 30,
+            loop: true,
+      callback: function(){
+        shift();
+      }
+		});
+
+	});
+  function shift(){
+      $(".head-wrap").addClass("shift-text");
+      terminalHeight();
+  }
+
+  function terminalHeight(){
+      var termHeight = $(".terminal-height");
+      var value = termHeight.text();
+      value = parseInt(value);
+      setTimeout(function(){
+          if (value > 10){
+              value = value-1;
+              this.txtValue = value.toString();
+              termHeight.text(this.txtValue);
+              self.terminalHeight();
+          }
+          else{
+              clearTimeout();
+          }
+      }, 10);
+  }
+	</script>
 
 </body>
 
