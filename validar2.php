@@ -21,7 +21,7 @@ $idparticipante = mysqli_insert_id($conectar);
 else{
     ?>
     <script>
-        alert("Gracias por registrarte <?php echo $nombre; ?>");
+        alert("Gracias por registrarte <?php echo $nombre; ?> Te mandaremos un correo para recordarte tus talleres");
     location.href = "index.php";
 </script>
     <?php

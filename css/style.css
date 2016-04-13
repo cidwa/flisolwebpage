@@ -75,6 +75,9 @@ div.navbar-header {
     padding: 4%;
     padding-left: 0;
 }
+.margen{
+    margin-top: 75px;
+}
 
 .backwhite {
     background: white;
@@ -147,7 +150,7 @@ p {
     height: 0;
     line-height: 0;
     border-left: 20px solid transparent;
-    border-top: 10px solid rgb(210, 206, 201);
+    border-top: 30px solid rgb(210, 206, 201);
     position: absolute;
     top: 100%;
     left: 0px;
@@ -158,11 +161,46 @@ p {
     height: 0;
     line-height: 0;
     border-right: 20px solid transparent;
-    border-top: 10px solid rgb(210, 206, 201);
+    border-top: 30px solid rgb(210, 206, 201);
     position: absolute;
     top: 100%;
     right: 0px;
 }
+
+.title-black {
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    /*margin-left: -30px;*/
+    position: relative;
+    box-shadow: 3px 3px 30px #353839;
+    background-color: #3A3A3A;
+    color: white;
+    transition: all 3s ease;
+}
+
+.forma-left-black {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-left: 20px solid transparent;
+    border-top: 30px solid rgb(108, 108, 108);
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+
+.forma-right-black {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-right: 20px solid transparent;
+    border-top: 30px solid rgb(108, 108, 108);
+    position: absolute;
+    top: 100%;
+    right: 0px;
+}
+
+
 
 .circle {
     color: orange;
@@ -280,42 +318,58 @@ table td {
 }
 
 .parewi{
-    background: #219439;
+  background-image: url(../img/parewi-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
    padding: 10%;
+   background-attachment: fixed;
 }
 
 .drones{
-        
-   background-image: url(../img/background.jpg);
+  background-image: url(../img/dron.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
     padding: 10%;
     background-attachment: fixed;
 }
 .drones h2, .drones p{
-color: dimgray;    
+color: white;
 }
 
 .nodebots{
-    background: #219439;
-   padding: 10%;
+  background-image: url(../img/nodebots-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    padding: 10%;
+    background-attachment: fixed;
 }
 
 
 .talleres{
-      background-image: url(../img/background.jpg);
+      background-image: url(../img/main.png);
+      background-color: white;
+      background-position:right;
+      background-size: cover;
+      background-repeat: no-repeat;
     padding: 10%;
     background-attachment: fixed;
 }
+
 .talleres h2, .platicas p{
     color: dimgray;
 }
 
 /*STICKY BAR */
+/*
 .navbar-form input, .form-inline input {
 	width:auto;
 }
 
 header {
-	height:200px;
+	height: 0px;
 }
 
 
@@ -334,7 +388,7 @@ header {
     position: fixed;
     top: 800px;
 }
-
+*/
 /* //STICKY BAR */
 
 /****CURSOR TYPED*/
@@ -360,3 +414,35 @@ header {
     100% { opacity:1; }
 }
 /* //CURSOR TYPED*/
+
+.talleres h2{
+    color: black;
+}
+.talleres p{
+  font-size: 22px;
+    color: #3F3F3F;
+}
+.thum h2>small{
+  color: white;
+}
+
+.thum1 h2>small{
+  color: white;
+}
+
+.salomon p{
+    color: black;
+}
+salomon img{
+    width: 80%;
+    height: 80%;
+}
+
+
+.salomon .thumbnail {
+    border: 1px solid #219439;
+}
+
+ul{
+    list-style: none;
+}
