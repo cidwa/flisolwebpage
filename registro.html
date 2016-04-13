@@ -58,45 +58,16 @@
             <!-- /.container-fluid -->
         </nav>
     </header>
-
-    <section class="container-fluid back aire" style="padding: 2em;">
-        <div class="col-md-3">
-            <form role="form" data-toggle="validator" action="validar2.php" method="POST">
-                <div class="form-group">
-                    <label for="">Nombre:</label>
-                    <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
-                </div>
-                <div class="form-group">
-                    <label for="">Apellido:</label>
-                    <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
-                </div>
-                <div class="form-group">
-                    <label for="">email:</label>
-                    <input id="email" name="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
-                </div>
-                <div class="form-group">
-                    <label for="">Taller / Ponencia:</label>
-                    <textarea id="tp" rows="5" cols="40" class="form-control" disabled>
-                    </textarea>
-                </div>
-                <div class="form-group">
-                    <label for="" style="display:none;">Taller / Ponencia:</label>
-                    <textarea style="display:none;" id="taller" name="taller" rows="5" cols="40" class="form-control" readonly>
-                    </textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-default col-md-12">Registrate</button>
-                </div>
-        </div>
-        </form>
-        </div>
-        <div class="col-sm-12 col-md-9">
+    <section class="container-fluid back-regis">
+       <div class="container">
+        <div class="row aire3">
             <div class="col-md-12">
                 <div class="panel panel-warning">
                     <div class="panel-heading">
-                        <h1 class="panel-title">Registrate a las Actividades  - FLISoL Acatlán </h1>
+                        <h1 class=""> <small>Selecciona los talleres a los que vayas a asistir y llena tus datos en la parte inferior</small></h1>
                     </div>
-                    <div class="panel-body">
+                    <!--end panel heading-->
+                    <div class="panel-body table-responsive">
                         <table class="table table-striped table-hover ">
                             <thead>
                                 <tr>
@@ -116,55 +87,104 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button nodebots" data-check="">
-                                        <h5>NodeBotsMX</h5>
-                                          <p style="color: black">
-                                            <small>Ponencia</small>
-                                        </p>
-                                        </button>
-                                        </a>
-                                        </small>
-                                    </td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td>11:00 - 13:00</td>
+                                    <td>11:00 - 12:00</td>
                                     <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button wordpress" data-check="">
-                                        <h5>Plantilla de wordpress desde 0</h5>
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="top" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">
+                                           <button type="button" name="button" class="all-button wordpress" data-check="">
+                                       <h6> Template para wordpress I</h6>
                                           <p style="color: black">
-                                            <small>Taller</small>
+                                            
                                         </p>
                                         </button>
                                         </a>
                                         </small>
-                                    </td>
-                                    <td></td>
-                                    <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button wordpress" data-check="">
-                                        <h5>Plantilla de wordpress desde 0</h5>
-                                          <p style="color: black">
-                                            <small>Taller</small>
-                                        </p>
-                                        </button>
-                                        </a>
-                                        </small>
-                                    </td>
-                                    <td></td>
 
-                                    <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button wordpress" data-check="">
-                                        <h5>Plantilla de wordpress desde 0</h5>
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="top" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
                                           <p style="color: black">
-                                            <small>Taller</small>
+                                            
                                         </p>
                                         </button>
                                         </a>
                                         </small>
+                                    </td>
+                                    <!-- td -->
+                                    <td>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="top" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                       <h6> Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+                                    </td>
+                                    <td>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="top" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">
+                                           <button type="button" name="button" class="all-button wordpress" data-check="">
+                                         <h6> Template para wordpress II</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="top" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+                                    </td>
+                                    <td>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="top" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Saúl Salomón Ramirez Zuñiga</b>" data-placement="top" data-content="Crea un template adaptable a todos los dispositivos para tu blog personal en wordpress<br><b>Lugar: Sala 1</b> ">
+                                             <button type="button" name="button" class="all-button wordpress" data-check="">
+                                       <h6> Template para wordpress III</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+                                    </td>
+                                    <td>
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Sergio</b>" data-placement="top" data-content="Aprende a usar linux de manera fluida sin miedo a la terminal<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button linux" data-check="">
+                                        <h6>Aprende a usar linux</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+
                                     </td>
                                 </tr>
                                 <tr>
@@ -173,34 +193,99 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Eduardo Espinoza</b>" data-placement="top" data-content="Descubre que son los metadatos, para que sirven y cual es su relación con la seguridad informatica<br><b>Lugar: Area de Linux</b> ">
+                                            <button type="button" name="button" class="all-button metadatos" data-check="">
+                                       <h6> Conociendo y manipulando los metadatos</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>13:00 - 14:00</td>
-                                    <td></td>
-                                    <td></td>
                                     <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button cordova" data-check="">
-                                        <h5>Aplicaciones moviles con Cordova</h5>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="top" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">
+                                             <button type="button" name="button" class="all-button rno" data-check="">
+                                       <h6> R no estadistico I</h6>
                                           <p style="color: black">
-                                            <small>Taller</small>
+                                            
                                         </p>
                                         </button>
                                         </a>
                                         </small>
+
                                     </td>
                                     <td></td>
                                     <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button polymer" data-check="">
-                                        <h5>Introducción a Polymer con material Design</h5>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="top" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                             <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova I</h6>
                                           <p style="color: black">
-                                            <small>Taller</small>
+                                            
                                         </p>
                                         </button>
                                         </a>
                                         </small>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="top" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button rno" data-check="">
+                                      <h6> R no estadistico II</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+                                    </td>
+                                    <td></td>
+                                    <td>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Angel Barrera Santana</b>" data-placement="top" data-content="Crea proyectos web asombrosos con Polymer y Material Design de Google<br><b>Lugar: Sala 5</b>">
+                                            
+                                             <button type="button" name="button" class="all-button polymer" data-check="">
+                                      <h6> Polymer y material Design</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="top" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova II</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+                                        <br/>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Oscar Caballero Martinez</b>" data-placement="top" data-content=" El lenguaje de programación R tambien puede tener un enfoque no estadistico, descubrelo aquí<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button rno" data-check="">
+                                      <h6> R no estadistico III</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
                                     </td>
                                 </tr>
                                 <tr>
@@ -208,51 +293,99 @@
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button cordova" data-check="">
-                                          <h5>Aplicaciones moviles con Cordova</h5>
-                                            <p style="color: black">
-                                              <small>Taller</small>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="top" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova I</h6>
+                                          <p style="color: black">
+                                            
                                         </p>
                                         </button>
                                         </a>
                                         </small>
+
                                     </td>
                                     <td></td>
                                     <td>
-                                        <small><a tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Julio C. Rodriguez</b>" data-placement="top" data-content="Conferencia sobre el trabajo que estan desarrollando en la comunidad de NodeBots México.">
-                                      <button type="button" name="button" class="all-button polymer" data-check="">
-                                        <h5>Introducción a Polymer con material Design</h5>
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Angel Barrera Santana</b>" data-placement="top" data-content="Introducción a Polymer y Material Design de Google<br><b>Lugar:Sala 5</b>">
+                                            
+                                            <button type="button" name="button" class="all-button polymer" data-check="">
+                                      <h6> Polymer y material Design</h6>
                                           <p style="color: black">
-                                            <small>Taller</small>
+                                            
                                         </p>
                                         </button>
                                         </a>
                                         </small>
+
+
+                                        <small><a style="color: black" tabindex="0" class="" role="button" data-toggle="popover" data-trigger="hover" data-html="true" title="<b>Ponente: Juan Carlos Gonzalez Aguilar</b>" data-placement="top" data-content="Aprende a crear aplicaciones moviles multiplataforma usando tecnologías web<br><b>Lugar: Sala 2</b> ">
+                                            
+                                            <button type="button" name="button" class="all-button cordova" data-check="">
+                                      <h6> Aplicaciones moviles con cordova II</h6>
+                                          <p style="color: black">
+                                            
+                                        </p>
+                                        </button>
+                                        </a>
+                                        </small>
+
+
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td>15:00 - 16:00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="row">
-                            <p id="demo"></p>
-
-                        </div>
+                    </div>
+                    <!--END panel-body-->
+                    <div class="panel-footer">
                     </div>
                 </div>
-            </div>
-            <div class="col-md-2">
+                <!--END panel panel-warning-->
+                <div class="container aire">
+                    <form role="form" class="form" data-toggle="validator" action="validar2.php" method="POST">
+                        <div class="form-group">
+                            <label for="">Nombre:</label>
+                            <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Ej. Marco" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Apellido:</label>
+                            <input id="apellido" name="apellido" type="text" class="form-control" placeholder="Ej. Polo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">email:</label>
+                            <input id="email" name="email" type="email" class="form-control" placeholder="Ej. ejemplo@mail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Taller / Ponencia:</label>
+                            <textarea id="tp" rows="5" cols="40" class="form-control" disabled>
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="" style="display:none;">Taller / Ponencia:</label>
+                            <textarea style="display:none;" id="taller" name="taller" rows="5" cols="40" class="form-control" readonly>
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success col-md-12">Registrate</button>
+                        </div>
 
+                    </form>
+                    <br>
+                    <br>
+                    <br>
+                </div>
             </div>
+            <!--end col-md-12-->
         </div>
+        <!--END row aire -->
+    
+    </div>
     </section>
+
+
+
     <footer class="container-fluid">
         <div class="row">
             <section class="col-md-4">
@@ -288,22 +421,40 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-
             $('[data-toggle="popover"]').popover();
 
-            $('table').on('click', '.nodebots', function (event) {
-                if ($('.nodebots').hasClass('color')) {
-                    $('.nodebots').removeClass('color').attr('data-check', '');
-                } else {
-                    $('.nodebots').addClass('color').attr('data-check', 'nodebots');
-                }
-                valor();
-            });
             $('table').on('click', '.wordpress', function (event) {
                 if ($('.wordpress').hasClass('color')) {
                     $('.wordpress').removeClass('color').attr('data-check', '');
                 } else {
                     $('.wordpress').addClass('color').first().attr('data-check', '1');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.linux', function (event) {
+                if ($('.linux').hasClass('color')) {
+                    $('.linux').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.linux').addClass('color').first().attr('data-check', '2');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.rno', function (event) {
+                if ($('.rno').hasClass('color')) {
+                    $('.rno').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.rno').addClass('color').first().attr('data-check', '3');
+                }
+                valor();
+            });
+
+            $('table').on('click', '.cordova', function (event) {
+                if ($('.cordova').hasClass('color')) {
+                    $('.cordova').removeClass('color').attr('data-check', '');
+                } else {
+                    $('.cordova').addClass('color').first().attr('data-check', '4');
                 }
                 valor();
             });
@@ -317,14 +468,15 @@
                 valor();
             });
 
-            $('table').on('click', '.cordova', function (event) {
-                if ($('.cordova').hasClass('color')) {
-                    $('.cordova').removeClass('color').attr('data-check', '');
+            $('table').on('click', '.metadatos', function (event) {
+                if ($('.metadatos').hasClass('color')) {
+                    $('.metadatos').removeClass('color').attr('data-check', '');
                 } else {
-                    $('.cordova').addClass('color').first().attr('data-check', '4');
+                    $('.metadatos').addClass('color').first().attr('data-check', '6');
                 }
                 valor();
             });
+
             var valor = function () {
                 array = [];
                 nom = [];
@@ -344,7 +496,7 @@
                 $('table').find('.all-button').each(function (index) {
                     if (($(this).attr('data-check')) != '') {
                         console.debug('----------');
-                        nom.push($(this).find('h5').text());
+                        nom.push($(this).find('h6').text());
                         for (i = 0; i < nom.length; i++) {
                             $('#tp').html('')
                             console.debug('arreglo: ' + nom[i]);

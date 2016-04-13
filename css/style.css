@@ -223,3 +223,45 @@ table th {
 .panel h1 small {
     color: white;
 }
+
+table td {
+    text-align: center;
+}
+
+.back-regis{
+    background: white;
+}
+
+.aire3{
+    margin-top: 5%;
+}
+
+.parewi{
+    background: #219439;
+   padding: 10%;
+}
+
+.drones{
+        
+   background-image: url(../img/background.jpg);
+    padding: 10%;
+    background-attachment: fixed;
+}
+.drones h2, .drones p{
+color: dimgray;    
+}
+
+.nodebots{
+    background: #219439;
+   padding: 10%;
+}
+
+
+.talleres{
+      background-image: url(../img/background.jpg);
+    padding: 10%;
+    background-attachment: fixed;
+}
+.talleres h2, .platicas p{
+    color: dimgray;
+}
