@@ -449,3 +449,8 @@ salomon img{
 ul{
     list-style: none;
 }
+
+.conferencias a
+{
+    color: #ff851b;
+}
